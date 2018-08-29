@@ -2,16 +2,16 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
-require './vendor/autoload.php';
+require 'bootstrap.php';
 
-$app = new \Slim\App;
+/**$app = new \Slim\App;*/
 
 /**
  * Inicio do bang :)
  * @var string
  */
 /**rota get por meio de uma Clojure */
-
+//exercicio 1
 /** $app->get('/', function (Request $request, Response $response) use ($app) {
     $response->getBody()->write("Hello Word!");
     return $response;
